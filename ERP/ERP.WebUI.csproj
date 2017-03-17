@@ -108,7 +108,6 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="ClassDiagram1.cd" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -130,7 +129,23 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Domain\ERPMashines.cs" />
+    <Compile Include="Domain\CustomDbInit.cs" />
+    <Compile Include="Domain\Entities\EqGroup.cs" />
+    <Compile Include="Domain\Entities\Facility.cs" />
+    <Compile Include="Domain\Entities\FactoryShop.cs" />
+    <Compile Include="Domain\Entities\Index.cs" />
+    <Compile Include="Domain\Entities\KindEq.cs" />
+    <Compile Include="Domain\Entities\Mark.cs" />
+    <Compile Include="Domain\Entities\PhEnvironment.cs" />
+    <Compile Include="Domain\Entities\Plant.cs" />
+    <Compile Include="Domain\Entities\ProducerFactory.cs" />
+    <Compile Include="Domain\Entities\RepairReason.cs" />
+    <Compile Include="Domain\Entities\Repairs.cs" />
+    <Compile Include="Domain\Entities\Servicer.cs" />
+    <Compile Include="Domain\Entities\Standard.cs" />
+    <Compile Include="Domain\Entities\WrkRegister.cs" />
+    <Compile Include="Domain\ERPMashinesDbContext.cs" />
+    <Compile Include="Domain\FluentAPIConfiguration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
