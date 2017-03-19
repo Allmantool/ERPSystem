@@ -93,6 +93,7 @@
     <Compile Include="Domain\Entities\Repairs.cs" />
     <Compile Include="Domain\Entities\Servicer.cs" />
     <Compile Include="Domain\Entities\Standard.cs" />
+    <Compile Include="Domain\Entities\StructNode.cs" />
     <Compile Include="Domain\Entities\WrkRegister.cs" />
     <Compile Include="Domain\ERPMashinesDbContext.cs" />
     <Compile Include="Domain\FluentAPIConfiguration.cs" />
