@@ -79,10 +79,15 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Domain\Abstract\INode.cs" />
+    <Compile Include="Domain\Abstract\ITreeNode.cs" />
+    <Compile Include="Domain\Concrete\Node.cs" />
+    <Compile Include="Domain\Concrete\TreeNode.cs" />
     <Compile Include="Domain\CustomDbInit.cs" />
     <Compile Include="Domain\Entities\EqGroup.cs" />
     <Compile Include="Domain\Entities\Facility.cs" />
     <Compile Include="Domain\Entities\FactoryShop.cs" />
+    <Compile Include="Domain\Concrete\GeneralHierarchyUnit.cs" />
     <Compile Include="Domain\Entities\Index.cs" />
     <Compile Include="Domain\Entities\KindEq.cs" />
     <Compile Include="Domain\Entities\Mark.cs" />
