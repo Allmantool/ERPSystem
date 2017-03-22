@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ERP.Domain.Entities {
     /// <summary>
-    /// Характеристика оборудования (единица)
+    /// Техническая характеристика оборудования (единица)
     /// </summary>
     public class Index {
         [Key, ForeignKey("Facility")]

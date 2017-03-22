@@ -1,6 +1,6 @@
 ﻿namespace ERP.Domain.Entities {
     /// <summary>
-    /// Рабочие нормы (показатели: нормы наработки и меж. ремонтного цикла)
+    /// Рабочие нормативы (показатели: нормы наработки и меж. ремонтного цикла)
     /// </summary>
     public class Standard {
         public struct Range {

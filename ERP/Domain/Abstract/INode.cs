@@ -6,7 +6,7 @@ namespace ERP.Domain.Abstract {
     /// Узел
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public interface INode<T> where T : INode<T>, IDisposable {
+    public interface INode<T>: IDisposable where T : INode<T> {
         T _children { get; set; }
         ICollection<T> Ancestors { get; set; }
         ICollection<T> Descendants { get; set; }

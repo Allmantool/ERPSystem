@@ -84,6 +84,7 @@
     <Compile Include="Domain\Concrete\Node.cs" />
     <Compile Include="Domain\Concrete\TreeNode.cs" />
     <Compile Include="Domain\CustomDbInit.cs" />
+    <Compile Include="Domain\Entities\ElectrPassport.cs" />
     <Compile Include="Domain\Entities\EqGroup.cs" />
     <Compile Include="Domain\Entities\Facility.cs" />
     <Compile Include="Domain\Entities\FactoryShop.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Domain\Entities\Index.cs" />
     <Compile Include="Domain\Entities\KindEq.cs" />
     <Compile Include="Domain\Entities\Mark.cs" />
+    <Compile Include="Domain\Entities\MeauseUnit.cs" />
     <Compile Include="Domain\Entities\PhEnvironment.cs" />
     <Compile Include="Domain\Entities\Plant.cs" />
     <Compile Include="Domain\Entities\ProducerFactory.cs" />
@@ -133,6 +135,7 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
