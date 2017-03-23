@@ -15,8 +15,6 @@ namespace ERP.Domain.Entities {
 
         public int Id { get; set; }
 
-        public int IdFacilityGroup { get; set; }
-
         [MaxLength(300)]
         public string Location { get; set; }
         public DateTime DueDate { get; set; }

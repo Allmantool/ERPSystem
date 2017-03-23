@@ -80,9 +80,9 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Domain\Abstract\INode.cs" />
-    <Compile Include="Domain\Abstract\ITreeNode.cs" />
+    <Compile Include="Domain\Abstract\ITree.cs" />
     <Compile Include="Domain\Concrete\Node.cs" />
-    <Compile Include="Domain\Concrete\TreeNode.cs" />
+    <Compile Include="Domain\Concrete\Tree.cs" />
     <Compile Include="Domain\CustomDbInit.cs" />
     <Compile Include="Domain\Entities\ElectrPassport.cs" />
     <Compile Include="Domain\Entities\EqGroup.cs" />

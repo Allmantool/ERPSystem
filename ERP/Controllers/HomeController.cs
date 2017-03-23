@@ -11,12 +11,6 @@ namespace ERP.Controllers {
         public IEnumerable<string> Get() {
             var dbContext = new ERPMashinesDbContext();
 
-            using (dbContext) {
-                dbContext.Facilities.Add(new Facility() {Id = 1, DueDate = new DateTime(2017,1,1), IdFacilityGroup = 1, Location = "NP"  });
-                dbContext.Indexes.Add(new Index() { Id = 1, dataType = typeof(int), Description = "This", IdFacility = 1 });
-
-                dbContext.SaveChanges();
-            }
 
             return dbContext.Indexes.Where(x => x.Id == 1).Select(x => x.Description);
         }
